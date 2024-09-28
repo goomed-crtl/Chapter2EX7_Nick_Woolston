@@ -25,7 +25,11 @@ const double tenYears = 10;
 
 int main()
 {
-    cout << " The ocean will rise " << oceanRise * fiveYears << " meters in five years, " << oceanRise * sevenYears << " meters in seven years, and " << oceanRise * tenYears << " meters in ten years.";
+    cout << "The ocean will rise " << oceanRise * fiveYears << " milimeters in five years, " << oceanRise * sevenYears << " milimeters in seven years, and " << oceanRise * tenYears << " milimeters in ten years.\n";
+    cout << "Now enter your own rate for how many milimeters the ocean will rise:\n";
+    double userRise;
+    cin >> userRise;
+    cout << " The ocean will rise " << userRise * fiveYears << " milimeters in five years, " << userRise * sevenYears << " milimeters in seven years, and " << userRise * tenYears << " milimeters in ten years.";
     return 0;
 }
 
